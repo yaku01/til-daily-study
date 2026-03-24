@@ -60,7 +60,7 @@ int main() {
     return 0;
 }
 ```
-2 AlchemyWorkshop.h
+### 2 AlchemyWorkshop.h
 
 역할: 연금술 작업장 클래스 정의
 
@@ -148,7 +148,7 @@ public:
     }
 };
 ```
-3 Recipe.h
+### 3 Recipe.h
 
 역할: 레시피 및 재료 클래스 정의
 
