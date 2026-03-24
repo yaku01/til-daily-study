@@ -1,54 +1,45 @@
-1. 프로젝트 개요
+# 1. 프로젝트 개요
 
 설명: 플레이어의 HP, MP, 공격력, 방어력, 레벨, 운(luck)을 관리하며, 포션 사용과 레벨업 기능이 포함되어 있습니다.
 
-사용 언어/환경: C++
 
-2. 클래스별 설명
+
+## 2. 클래스별 설명
 
 Player 클래스
 
 역할: 모든 플레이어의 공통 속성을 관리
 
-주요 멤버: name, job, level, hp, mp, power, def, accuracy, speed
-
-주요 함수:
-
-attack() : 순수 가상 함수
-
-attack(Monster* monster) : 몬스터 공격
-
-printPlayerStatus() : 상태 출력
-
-Getter/Setter 제공
-
-Warrior 클래스
-
 Player 상속
+
 공격력과 방어력, HP/MP 초기화
+
 attack()와 attack(Monster* monster) 오버라이드
+
 Monster 클래스
+
 역할: 플레이어와 전투를 하는 몬스터 관리
+
 주요 멤버: name, HP, power, defence, speed
+
 주요 함수:
 attack(Player* player) : 플레이어 공격
+
 Getter/Setter 제공
 
-3. 코드
+### 3. 코드
+
+
+```cpp
 
 // main.cpp
+
 #include <iostream>
-
 #include "Player.h"
-
 #include "Warrior.h"
-
 #include "Magician.h"
-
 #include "Archer.h"
-
 #include "Thief.h"
-
 #include "Monster.h"
 
 using namespace std;
@@ -109,7 +100,6 @@ int main()
     return 0;
 }
 
-
 // Player.h
 
 #pragma once
@@ -153,7 +143,7 @@ protected:
     int def;
     int accuracy;
     int speed;
-};
+}
 
 
 // Player.cpp
