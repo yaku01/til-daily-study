@@ -143,7 +143,7 @@ public:
     }
 };
 ```
-3 Item.h
+### 3 Item.h
 
 역할: 아이템 클래스 정의
 
@@ -174,7 +174,7 @@ public:
     int GetPrice() const { return price_; }
 };
 ```
-4 compare.h
+### 4 compare.h
 역할: 아이템 정렬 비교 함수 정의 
 ```cpp
 #pragma once
