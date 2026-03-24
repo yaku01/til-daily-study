@@ -45,13 +45,16 @@ int main() {
 
     return 0;
 }
-2 Inventory.h
+```
+
+### 2 Inventory.h
 역할: 템플릿 기반 인벤토리 관리
 주요 기능:
 아이템 추가/삭제
 크기 자동 확장
 복사/할당 지원
 정렬 기능
+```cpp
 #pragma once
 #include <iostream>
 #include <algorithm>
@@ -139,11 +142,15 @@ public:
         }
     }
 };
-
+```
 3 Item.h
+
 역할: 아이템 클래스 정의
+
 속성: 이름, 가격
+
 주요 기능: 정보 출력, 가격 반환
+```cpp
 #pragma once
 #include <iostream>
 #include <string>
@@ -166,8 +173,10 @@ public:
 
     int GetPrice() const { return price_; }
 };
+```
 4 compare.h
-역할: 아이템 정렬 비교 함수 정의 (가격 기준)
+역할: 아이템 정렬 비교 함수 정의 
+```cpp
 #pragma once
 #include "Item.h"
 
