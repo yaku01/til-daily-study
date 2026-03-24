@@ -9,14 +9,14 @@
 ---
 
 ## 목차
-- [main.cpp](#maincpp)  
-- [Inventory.h](#inventoryh)  
-- [Item.h](#itemh)  
-- [compare.h](#compareh)  
+- [main.cpp](#1-maincpp)  
+- [Inventory.h](#2-inventoryh)  
+- [Item.h](#3-itemh)  
+- [compare.h](#4-compareh)  
 
 ---
 
-### main.cpp
+### 1 main.cpp
 - **역할**: 인벤토리 생성, 아이템 추가, 정렬 테스트
 ```cpp
 #include <iostream>
@@ -45,7 +45,7 @@ int main() {
 
     return 0;
 }
-Inventory.h
+2 Inventory.h
 역할: 템플릿 기반 인벤토리 관리
 주요 기능:
 아이템 추가/삭제
@@ -139,7 +139,8 @@ public:
         }
     }
 };
-Item.h
+
+3 Item.h
 역할: 아이템 클래스 정의
 속성: 이름, 가격
 주요 기능: 정보 출력, 가격 반환
@@ -165,7 +166,7 @@ public:
 
     int GetPrice() const { return price_; }
 };
-compare.h
+4 compare.h
 역할: 아이템 정렬 비교 함수 정의 (가격 기준)
 #pragma once
 #include "Item.h"
