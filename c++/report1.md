@@ -14,16 +14,22 @@
 
 Status 열거형:
 캐릭터 스탯을 배열 인덱스로 관리
+
 HP, MP, ATK, DEF, level, luck
+
 setPotion 함수:
 HP와 MP 포션을 증가시키는 함수
+
 입력: 포션 개수, HP포션 포인터, MP포션 포인터
+
 동작: 포인터로 전달된 포션 개수 증가
+
 메인 루프 기능:
 초기 HP, MP 입력 (50 이하 입력 시 재입력)
 공격력, 방어력 입력 (0 이하 입력 시 재입력)
 포션 지급 및 메뉴 선택 반복
 HP/MP UP, 공격력/방어력 UP, 현재 능력치 출력, Level Up, luck UP, 종료
+
 3.코드 
 ```cpp
 #include <iostream>
