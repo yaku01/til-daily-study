@@ -18,7 +18,7 @@ HP와 MP 포션을 증가시키는 함수
 포션 지급 및 메뉴 선택 반복
 HP/MP UP, 공격력/방어력 UP, 현재 능력치 출력, Level Up, luck UP, 종료
 3.코드 
-
+```cpp
 #include <iostream>
 
 // 캐릭터 스탯 인덱스 정의
