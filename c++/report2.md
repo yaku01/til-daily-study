@@ -37,8 +37,6 @@ Getter/Setter 제공
 3. 코드
 
 // main.cpp
-
-
 #include <iostream>
 
 #include "Player.h"
