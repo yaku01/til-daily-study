@@ -1,6 +1,4 @@
-# Unreal Engine 5 - MyActor 프로젝트 정리
-
-## 1️⃣ 프로젝트 개요
+# 1️⃣ 프로젝트 개요
 - C++ Actor 클래스 (`MyActor`)를 생성
 - 랜덤 이동 + 회전 10회
 - 매 이동 시 좌표와 Step 출력
